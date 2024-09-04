@@ -1,2 +1,3 @@
-# grim-reaply
-An RPG where you play as the grim reaper
+# Grim Reaply
+An RPG where you play as the grim reaper.
+This is a project in development.
