@@ -61,4 +61,5 @@ The Seventh Seal - Bergman
 Grim Adventures of Billy & Mandy
 Hollow Knight
 Mort - Terry Pratchett
+The Scythe - Ray Bradbury
 Grim Fandango
