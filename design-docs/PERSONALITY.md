@@ -1,5 +1,59 @@
 # Personality: how to represent a character's personality, and how to develop it throughout the game
 
+## Summary
+Grim has a personality that evolves as he talks to humans and other characters.
+Grim talks to humans before he reaps their souls.
+He talks to other characters, such as the Taxi Driver, and reflects on the humans he has met, what he thinks about them, and how he feels.
+
+He has surface-level mood attributes such as Hope and Anger.
+His personality is made up of traits at various levels.
+The higher level traits change more frequently and affect his mood.
+The lower level traits are more robust and affect the changes in his higher level traits.
+
+Mood determines what dialogue options are available.
+
+Events and dialogue outcomes can change Mood. These changes are moderated by Personality 1 and 2.
+
+Large changes in Mood affect Personality 1.
+
+Large changes in Personality 1 affect Personality 2.
+
+Certain changes can cause events, such as a Crisis. (Epiphancy, Realisation) 
+
+### TODO
+Rename Mood & Personalities
+E.g. sentiment, composition, essence, expression, experience
+
+## Design
+Grim's attributes, all have a value from 0-10:
+### Mood
+- Guilt (remorse?)
+- Joy
+- Sorrow
+- Panic
+- Composure
+### Personality 1
+- Hope
+- Regret (remorse?)
+- Whimsy
+- Contentment
+- Optimism
+### Personality 2
+- Ego
+- Reactivity
+- Conscience
+- Creativity
+- Passion
+### Other trait ideas
+- Worry, anxiety, nervousness, trepidation
+- Confusion
+- Fatigue
+
+
+
+## Thoughts
+Thoughts that lead to this design
+
 A simple, typical model might be:
 anger: 5/10
 creativity: 2/10
